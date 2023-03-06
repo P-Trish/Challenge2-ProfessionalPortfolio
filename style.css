@@ -1,0 +1,39 @@
+
+
+header {
+    justify-content: center;
+    align-content: center;
+  }
+  
+
+/* Elements Selectors */
+
+
+
+
+
+
+
+/* Class Selectors */
+
+.name {
+    color:yellowgreen;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    padding: 50px auto  
+}
+
+
+
+
+/* ID Selectors */
+
+@media screen and (max-width: 992px) .card {
+	width: 50%;
+}
+
+@media screen and (max-width: 768px) .card {
+	width: 100%;
+}
+
