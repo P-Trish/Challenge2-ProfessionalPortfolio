@@ -1,7 +1,7 @@
 * {
 margin: 0px;
 padding: 0px;
-background-color: #73D8D8;
+background-color: lightsteelblue;
 }
 
 header {
@@ -9,7 +9,13 @@ header {
     justify-content: center;
     align-content: center;
   }
-  
+
+img {
+  border-radius: 5px;
+  width: 25%;
+  height: 500px;
+}
+
 body{
   background: color #F9F54B    
   }
@@ -19,6 +25,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 display: flex;
 width: 100%;
 flex-wrap: wrap;
+padding-left:  1.5rem;
+padding-right: 1.5rem;
 }
 
 h2 {
@@ -30,6 +38,7 @@ h2 {
 footer {
 display: flex;
 justify-content: center;
+align-content: center;
 background-color: lightsteelblue;
 color:whitesmoke;
 }
@@ -50,10 +59,16 @@ color:whitesmoke;
 
 .Nav-Bar {
   display: flex;
-  text-align: right;
+  flex-direction: row;
+  width: 33.3%;
+	border: 1px dashed gray;
+	color: white;
+  flex: 1 0 33.3%;
+  align-content: center;
 }
 
 .card {
+  width: 33.3%;
   border: 1px dashed gainsboro ;
 }
 
