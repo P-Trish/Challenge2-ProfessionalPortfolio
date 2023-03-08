@@ -9,6 +9,7 @@ header {
     justify-content: right;
     align-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50 px
   }
 
   li {
@@ -53,7 +54,7 @@ h4 {
 
 footer {
 display: flex;
-justify-content: center;
+justify-content: flex-end;
 align-content: center;
 background-color: lightsteelblue;
 color:whitesmoke;
