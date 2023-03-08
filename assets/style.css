@@ -5,71 +5,96 @@ background-color: lightsteelblue;
 }
 
 body{
-  background: color #F9F54B    
+background: color #F9F54B    
 }
 
 header {
-    color: whitesmoke;
-    justify-content: right;
-    align-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 50 px
-  }
+color: whitesmoke;
+justify-content: right;
+align-content: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 50 px
+}
 
 .title {
-    background-color: lightsteelblue;
-    color: whitesmoke;
-    justify-content: right;
-    display: flex;
-    align-content: center;
-    padding-right: 15px;
+background-color: lightsteelblue;
+color: whitesmoke;
+justify-content: right;
+display: flex;
+align-content: center;
+padding-right: 15px;
 }
+
+.Nav-Bar {
+display: inline;
+width: 33.3%;
+border: 1px dashed gray;
+color: white;
+flex: 1 0 33.3%;
+align-content: right;
+padding-left: 10px;
+}
+  
+li {
+display: inline;
+margin: 25px
+}
+
 #about-me-section {
 display: flex;
 width: 100%;
 /* width: 100%; */
 /* padding-right: 25px; */
 }
+
+#about-me-section img {
+  width: 50%;
+}
+
 #about-me-blurb {
-width: 100%;
+width: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
 text-align: left;
 }
 
-.Nav-Bar {
-  display: inline;
-  width: 33.3%;
-	border: 1px dashed gray;
-	color: white;
-  flex: 1 0 33.3%;
-  align-content: right;
-  padding-left: 10px;
+#hello-me{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items:  center;
+text-align: left;
 }
 
-li {
-    display: inline;
-    margin: 25px
-  }
+#my-work-section{
+display: flex;
+width: 100%
+
+}
+
+
 main {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 100%;
-  padding-left:  1.5rem;
-  padding-right: 1.5rem;
-  margin: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 100%;
+padding-left:  1.5rem;
+padding-right: 1.5rem;
+margin: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
   
 h2 {
-  color: whitesmoke
+color: whitesmoke
 }
 
 h3{
-  color: whitesmoke
+color: whitesmoke
 }
 
 h4 {
-  color: whitesmoke
+color: whitesmoke
 }
 
 footer {
@@ -81,14 +106,12 @@ text-align: center;
 @media screen and (max-width: 992px) {
 * {
 background-color: red;
-width: 33.3%
   }
 }
   
 @media screen and (max-width: 768px) {
 * {
 background-color: red;
-width: 50%
 }
 }
 
@@ -96,6 +119,5 @@ width: 50%
 @media screen and (max-width: 576px) {
 * {
 background-color: red;
-width: 100%;
 }
-}
+} 
