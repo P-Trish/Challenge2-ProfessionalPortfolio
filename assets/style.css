@@ -4,6 +4,10 @@ padding: 0px;
 background-color: lightsteelblue;
 }
 
+body{
+  background: color #F9F54B    
+}
+
 header {
     color: whitesmoke;
     justify-content: right;
@@ -12,34 +16,50 @@ header {
     margin: 50 px
   }
 
-  li {
-    display: inline;
-    margin: 25px
-
-
-
-  }
-
-img {
-  border-radius: 5px;
-  width: 25%;
-  height: 500px;
+.title {
+    background-color: lightsteelblue;
+    color: whitesmoke;
+    justify-content: right;
+    display: flex;
+    align-content: center;
+    padding-right: 15px;
 }
-
-body{
-  background: color #F9F54B    
-  }
-
-main {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+#about-me-section {
 display: flex;
 width: 100%;
-flex-wrap: wrap;
-padding-left:  1.5rem;
-padding-right: 1.5rem;
-margin: 25px;
+/* width: 100%; */
+/* padding-right: 25px; */
+}
+#about-me-blurb {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: left;
 }
 
+.Nav-Bar {
+  display: inline;
+  width: 33.3%;
+	border: 1px dashed gray;
+	color: white;
+  flex: 1 0 33.3%;
+  align-content: right;
+  padding-left: 10px;
+}
+
+li {
+    display: inline;
+    margin: 25px
+  }
+main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  padding-left:  1.5rem;
+  padding-right: 1.5rem;
+  margin: 25px;
+}
+  
 h2 {
   color: whitesmoke
 }
@@ -53,49 +73,29 @@ h4 {
 }
 
 footer {
-display: flex;
-justify-content: flex-end;
-align-content: center;
 background-color: lightsteelblue;
 color:whitesmoke;
+text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+* {
+background-color: red;
+width: 33.3%
+  }
+}
+  
+@media screen and (max-width: 768px) {
+* {
+background-color: red;
+width: 50%
+}
 }
 
 
-
-
-/* Class Selectors */
-
-.title {
-    background-color: lightsteelblue;
-    color: whitesmoke;
-    justify-content: right;
-    display: flex;
-    align-content: center;
-    padding-right: 15px;
+@media screen and (max-width: 576px) {
+* {
+background-color: red;
+width: 100%;
 }
-
-.Nav-Bar {
-  display: inline;
-  width: 33.3%;
-	border: 1px dashed gray;
-	color: white;
-  flex: 1 0 33.3%;
-  align-content: right;
-  padding-left: 10px;
 }
-
-.card {
-  width: 33.3%;
-  border: 1px dashed darkgoldenrod ;
-}
-
-/* ID Selectors */
-
-@media screen and (max-width: 992px) .card {
-	width: 50%;
-}
-
-@media screen and (max-width: 768px) .card {
-	width: 100%;
-}
-
