@@ -29,6 +29,7 @@ padding-right: 15px;
 display: inline;
 width: 33.3%;
 border: 1px dashed gray;
+border-radius: 8px;
 color: white;
 flex: 1 0 33.3%;
 align-content: right;
@@ -46,6 +47,7 @@ display: flex;
 
 #about-me-section img {
   width: 50%;
+  border-radius: 12px;
 }
 
 #about-me-blurb {
@@ -66,6 +68,7 @@ text-align: left;
 
 .hello, .work {
   border: dashed 0.5px;
+  border-radius: 8px;
   border-color:aliceblue;
   margin-top: 50px;
 }
@@ -88,11 +91,13 @@ font-weight: bold;
 padding: 5px;
 border: solid 1px aliceblue;
 margin: 25px;
+border-radius: 4px;;
 }
 
 .small-project img {
 width: 400px;
 height: 200px;
+border-radius: 6px;
 }
 
 .featured-project img {
@@ -123,6 +128,19 @@ h4 {
 color: whitesmoke
 }
 
+.contact {
+  border: solid 0.5px aliceblue;
+  border-radius: 8px;
+  color: whitesmoke;
+  margin: 20px;
+  padding: 5px 0 8px 0;
+}
+
+#contact header {
+  margin: 5px;
+  padding: 5px;
+}
+
 footer {
 background-color: lightsteelblue;
 color:whitesmoke;
@@ -131,19 +149,19 @@ text-align: center;
 
 @media screen and (max-width: 992px) {
 * {
-background-color: red;
+background-color: #220758
   }
 }
   
 @media screen and (max-width: 768px) {
 * {
-background-color: red;
+background-color: #220758
 }
 }
 
 
 @media screen and (max-width: 576px) {
 * {
-background-color: red;
+background-color: #220758;
 }
 } 
