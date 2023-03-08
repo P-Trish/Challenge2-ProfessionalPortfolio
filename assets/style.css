@@ -64,7 +64,7 @@ text-align: left;
 
 }
 
-.hello, .my-work {
+.hello, .work {
   border: dashed 0.5px;
   border-color:aliceblue;
   margin-top: 50px;
@@ -75,11 +75,33 @@ color:whitesmoke;
 padding: 5px;
 }
 
-#my-work{
+#work{
 display: flex;
+flex-direction: column;
+align-items: center;
 padding: 5px;
 }
 
+.sec-header{
+font-size: 20px;  
+font-weight: bold;
+padding: 5px;
+border: solid 1px aliceblue;
+margin: 25px;
+}
+
+.small-project img {
+width: 400px;
+height: 200px;
+}
+
+.featured-project img {
+width: 100%;  
+}
+
+.featured-project h3 {
+padding: 5px;  
+}
 
 main {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
