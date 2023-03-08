@@ -1,15 +1,18 @@
+:root{
+  --lightsteelblue: lightsteelblue;
+  --whitesmoke: whitesmoke;
+  --aliceblue: aliceblue;
+
+}
+
 * {
 margin: 0px;
 padding: 0px;
-background-color: lightsteelblue;
-}
-
-body{
-background: color #F9F54B    
+background-color: var(--lightsteelblue)
 }
 
 header {
-color: whitesmoke;
+color: var(--whitesmoke);
 justify-content: right;
 align-content: center;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,8 +20,8 @@ margin: 50 px
 }
 
 .title {
-background-color: lightsteelblue;
-color: whitesmoke;
+background-color: var(--lightsteelblue);
+color: var(--whitesmoke);
 justify-content: right;
 display: flex;
 align-content: center;
@@ -46,8 +49,8 @@ display: flex;
 }
 
 #about-me-section img {
-  width: 50%;
-  border-radius: 12px;
+width: 50%;
+border-radius: 12px;
 }
 
 #about-me-blurb {
@@ -63,18 +66,17 @@ display: flex;
 justify-content: center;
 align-items:  center;
 text-align: left;
-
 }
 
 .hello, .work {
-  border: dashed 0.5px;
-  border-radius: 8px;
-  border-color:aliceblue;
-  margin-top: 50px;
+border: dashed 0.5px;
+border-radius: 8px;
+border-color: var(--aliceblue);
+margin-top: 50px;
 }
 
 #intro {
-color:whitesmoke;
+color:var(--whitesmoke);
 padding: 5px;
 }
 
@@ -98,12 +100,13 @@ border-radius: 4px;;
 width: 400px;
 height: 200px;
 border-radius: 6px;
+transition: all 0.5s;
 opacity: 1;
 }
 
 .small-project:hover img {
-  transition: all 0.5s ease-in-out;
-  opacity: 0.5;
+transition: all 0.5s ease-in-out;
+opacity: 0.5;
 }
 
 .featured-project img {
@@ -114,8 +117,8 @@ opacity: 1;
 }
 
 .featured-project:hover img {
-  transition: all 0.5s ease-in-out;
-  opacity: 0.5;
+transition: all 0.5s ease-in-out;
+opacity: 0.5;
 }
 
 .featured-project h3 {
@@ -131,34 +134,36 @@ align-items: center;
 }
   
 h2 {
-color: whitesmoke
+color: var(--whitesmoke)
 }
 
 h3{
-color: whitesmoke
+color: var(--whitesmoke)
 }
 
 h4 {
-color: whitesmoke
+color: var(--whitesmoke)
 }
 
 .contact {
-  border: solid 0.5px aliceblue;
-  border-radius: 8px;
-  color: whitesmoke;
-  margin: 20px;
-  padding: 5px 0 8px 0;
+border: solid 0.5px aliceblue;
+border-radius: 8px;
+color: var(--whitesmoke);
+margin: 20px;
+margin-top: 40px;
+padding: 5px 0 8px 0;
 }
 
 #contact header {
-  margin: 5px;
-  padding: 5px;
+margin: 5px;
+padding: 5px;
 }
 
 footer {
-background-color: lightsteelblue;
-color:whitesmoke;
+background-color: var(--lightsteelblue);
+color: var(--whitesmoke);
 text-align: center;
+padding: 50px;
 }
 
 @media screen and (max-width: 992px) {
@@ -172,7 +177,6 @@ background-color: #220758
 background-color: #220758
 }
 }
-
 
 @media screen and (max-width: 576px) {
 * {
