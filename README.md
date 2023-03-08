@@ -25,3 +25,12 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
    ```
 
 ## Credits
+
+List collaborators
+Add third-party assets
+links to stock photos
+
+## License
+
+
+## Features
