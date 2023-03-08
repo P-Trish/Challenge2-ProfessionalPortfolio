@@ -2,8 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
+My motivation for this proejct was to build a portfolio showcasing my work as a web developer and tie in my background in 
 
 - What was your motivation?
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
