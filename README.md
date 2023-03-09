@@ -16,10 +16,7 @@ N/A
 At the top of this website there is a navigation bar with links that, when clicked, will scroll down to its corresponding section.  Links to the section of "my work" will take you to the title images of my current works.  Stock images serve as placeholders for future works that will be added.   When you hover over the image a transition has been applied so the user can see that the specific work is selected. Projects listed "COMING SOON!" will currently link to google.com.   Once clicked on, a new tab will pop up taking them to the deployed project's website.  Although, this webpage is meant for desktop viewing media queries have been applied to respond to the viewports of a desktop, tablet, and mobile.  This allows the user to view this website at the various screen sizes. To indicate when the screen size hits a max with for tablet and mobile, the background color changes to a darker purple.  
 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
    ![alt text](assets/images/screenshot.png)
-
    ![alt text](./assets/Hello.png)
    ![alt text](./assets/MyWork.png)
    ![alt text](./assets/ContactMe.png)
