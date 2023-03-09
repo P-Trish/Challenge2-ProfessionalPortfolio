@@ -39,7 +39,7 @@ nav {
   width: 33.3%;
   border: 1px dashed gray;
   border-radius: 8px;
-  color: white;
+  color: var(--whitesmoke);
   flex: 1 0 33.3%;
   align-content: right;
   padding-left: 10px;
