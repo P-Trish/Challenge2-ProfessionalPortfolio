@@ -11,7 +11,7 @@ N/A
 
 ## Usage
 
-At the top of this website there is a navigation bar with links that, when clicked will scroll down to its corresponding section.  Likns to the section of "my work" will take you to the title images of my current works. When you hover over the image a transition has been applied so the user can see that the image is clickable.  Once clicked on, a new tab will pop up taking them to the deployed project's website.  
+At the top of this website there is a navigation bar with links that, when clicked will scroll down to its corresponding section.  Likns to the section of "my work" will take you to the title images of my current works. When you hover over the image a transition has been applied so the user can see that the image is clickable.  Once clicked on, a new tab will pop up taking them to the deployed project's website.  Media queries have also been applied for the different screen sizes of desktop, tablet, and mobile.  This allows the user to view this website at various screen sizes.  
 
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
