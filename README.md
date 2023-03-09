@@ -2,12 +2,8 @@
 
 ## Description
 
-My motivation for this proejct was to build a portfolio showcasing my work as a web developer and tie in my background in 
+My motivation for this proejct was to build a portfolio showcasing my work as a web developer and tie in my background in media production as this page reflects.  In this professional portfolio, I would like to put my greatest works on display for future employers, once I complete these works and the UCLA Full-Stack Coding Bootcamp.  Each section will link to a deployed project.  This solves the problem of not having a central repository to display my work as I apply my new skills in web development to creating web projects.  Throughout this project, I learned to build a website from scratch using HTML and CSS.  I have applied the 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
 ## Installation
 
